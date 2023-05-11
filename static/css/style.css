@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 
@@ -17,6 +16,7 @@ button {
 
 body {
   width: 100vw;
+  font-family: "Raleway", sans-serif;
 }
 
 .blur_gradient {
@@ -154,3 +154,56 @@ body {
 .content .card_container_reverse {
   flex-direction: row-reverse;
 }/*# sourceMappingURL=style.css.map */
+
+.footer{
+  background-color:#212121;
+  padding: 40px;
+  width: 100%;
+  color: #FFFFFF;
+}
+.footer h2{
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 32px;
+  font-weight: 500;
+}
+.footer p{
+  font-size: 24px;
+}
+
+.main-container{
+  display: flex;
+  justify-content: space-around;
+}
+.container2, .container3, .container4{
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container1{
+  width: 604px;
+}
+.container1-upper{
+  margin-bottom: 30px;
+}
+.container1-lower img{
+  height: 39.16px;
+  margin-right: 10px;
+}
+.container1 h3,.container2 h3,.container3 h3,.container4 h3{
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.container1 p,.container2 a,.container3 a,.container4 a{
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.main-container a:hover{
+  color: red;
+}
+
